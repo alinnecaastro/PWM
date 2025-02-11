@@ -35,7 +35,8 @@ pico_sdk_init()
 
 # Add executable. Default name is the project name, version 0.1
 
-add_executable(PWM PWM.c )
+
+add_executable (PWM PWM.c)
 
 pico_set_program_name(PWM "PWM")
 pico_set_program_version(PWM "0.1")
@@ -55,7 +56,7 @@ target_include_directories(PWM PRIVATE
 
 # Add any user requested libraries
 target_link_libraries(PWM 
-        
+        hardware_pwm
         )
 
 pico_add_extra_outputs(PWM)
