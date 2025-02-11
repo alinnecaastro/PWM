@@ -43,7 +43,7 @@ https://drive.google.com/file/d/1loPBP3cu8ybx3tJ9RFJdWWj_tK-geYv2/view?usp=shari
 1. Defini frequência de PWM na GPIO 22 para aproximadamente 50HZ
 2. Ajusta o ciclo de trabalho para 2400us(180°);
 3. Ajusta o ciclo de trabalho para 1470us(90°);
-4. Ajusta o ciclo de trabalho para 400us (0°);
+4. Ajusta o ciclo de trabalho para 500us (0°);
 5. Movimenta periodicamente entre 0° a 180°;
 6. Experiemnto com o LED RGB - GPIO 12
 
