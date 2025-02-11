@@ -17,17 +17,14 @@
 Este projeto utiliza o Pico SDK para simular o controle do ângulo de um servomotor. A simulação será realizada com o motor micro servo padrão, presente no simulador de eletrônica online Wokwi, ajustando a posição do motor com base na variação do ciclo de trabalho (Duty Cycle) do sinal PWM. O objetivo é controlar com precisão o movimento do servomotor, permitindo que ele se posicione de acordo com os diferentes valores de ciclo de trabalho, simulando a movimentação do braço do servo entre 0° e 180°.
  
 
-## Video do funcionamento do projeto usando o led RGB e GPIO 12 
-https://drive.google.com/file/d/1hIG8jx_iI1Uijh_XgKumP72KiHPIL_Fe/view?usp=sharingg
+## Video do funcionamento do projeto 
+https://drive.google.com/file/d/1hnAZWEf2WopwBwryC5bnfg-0dPwa5jW9/view?usp=sharing
 
-## Video do funcionamento do projeto usando a mistura do RGB GPIO 11 e 13
-https://drive.google.com/file/d/1hFvHJdBVumI_FLqVhMKsY6Kh4CNnfYm6/view?usp=drive_link
+## Video do funcionamento no simulador com o LED 12
+https://drive.google.com/file/d/1AAznWEV4SQp0MjkzequYuesn2iufBTTf/view?usp=sharing
 
-## Video do funcionamento no simulador dentro do vscode com GPIO 12 
-https://drive.google.com/file/d/1xbVxYecFbzsi63KqMtRlpHYz-4fz1_2y/view?usp=sharing
-
-## Video do funcionamento no simulador dentro do vscode com GPIO 11 e 13
-https://drive.google.com/file/d/13pP_0ThIzlzZgzseRZ6ZozHRleIOc3X8/view?usp=sharing
+## Video do funcionamento no simulador servomotor
+https://drive.google.com/file/d/1loPBP3cu8ybx3tJ9RFJdWWj_tK-geYv2/view?usp=sharing
 
 ## Componentes Utilizados:
 - Microcontrolador Raspberry Pi Pico W
@@ -64,7 +61,7 @@ Para configurar o ambiente de desenvolvimento, siga as instruções de instalaç
 
 2. Clone o Repositório
 Clone o repositório com o código-fonte do projeto:
-git clone: https://github.com/alinnecaastro/Semaforo.git
+git clone:https://github.com/alinnecaastro/PWM.git
 
 3. Compilação do Projeto
 Para compilar o projeto, abra o Visual Studio Code e siga os seguintes passos:

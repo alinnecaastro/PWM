@@ -2,7 +2,7 @@
 #include "pico/stdlib.h"
 #include "hardware/pwm.h"
 
-#define PWM_PIN 22 // GPIO 22
+#define PWM_PIN 12 // GPIO 22
 
 
 int main() {
